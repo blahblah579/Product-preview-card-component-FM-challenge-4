@@ -3,7 +3,7 @@ module.exports = defineConfig({
   transpileDependencies: true,
   publicPath:
     process.env.NODE_ENV === "production"
-      ? "./" // This ensures all paths are relative
+      ? "./" // This should be the name of your repo
       : "/",
   pluginOptions: {
     vuetify: {
